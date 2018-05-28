@@ -3,11 +3,4 @@ def reverse_each_word(sentence)
   output = word_arr.collect {|word| reverse_word(word)}
   output.join("")
 end
-
-def reverse_word(word)
-  word_arr = word.split("")
-  output = []
-  word_arr.each {|ch| output.unshift(ch)}
-  output.join("")
-end
   
