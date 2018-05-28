@@ -5,7 +5,8 @@ end
 
 def reverse_word(word)
   word_arr = word.split("")
-  output = ""
+  output = []
   word_arr.each {|ch| output.unshift(ch)}
+  output.join("")
 end
   
